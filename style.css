@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+#register{
+    padding: 2px 10px;
+    border-radius: 30px;
+    margin-left: 40px;
+    transition: all 0.3s ease;
+}
+
+#register:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+
+.container{
+    width: 430px;
+    padding: 50px;
+    margin-top: 50px;
+
+    background: rgba(255,255,255,0.15);
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(18px);
+    border: none;
+}
+
+.container h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.input-box{
+    position: relative;
+    margin: 25px 0;
+}
+
+.input-box input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,.6);
+    color: white;
+    padding: 10px 35px 10px 0;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-box input::placeholder{
+    color: rgba(255,255,255,.8);
+}
+
+.shipping-form button{
+    width: 100%;
+    height: 45px;
+
+    margin-top: 30px;
+
+    border: none;
+    border-radius: 40px;
+
+    background: white;
+
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    transition: 0.3s;
+}
+
+.shipping-form button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8pxxx 20px rgba(255,255,255,0.3);
+}
+
+.shipping-form p{
+    margin-top: 40px;
+}
+.register-text a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.register-text a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
